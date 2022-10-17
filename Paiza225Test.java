@@ -5,6 +5,11 @@ import static org.hamcrest.MatcherAssert.*;
 
 import org.junit.Test;
 
+/**
+ * コンソールから数値を2回入力し、蒸散した結果を返す
+ * @author ky
+ *
+ */
 public class Paiza225Test {
 	@Test
 	public void test() {
