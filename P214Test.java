@@ -5,11 +5,11 @@ import static org.hamcrest.MatcherAssert.*;
 
 import org.junit.Test;
 
-public class Paiza214Test {
+public class P214Test {
 	@Test
 	public void test() {
-		new Paiza214();
-		int result = Paiza214.test();
+		new P214();
+		int result = P214.test();
 		assertThat(result, is(2));
 	}
 }
