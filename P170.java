@@ -6,9 +6,15 @@ package sandbox;
  *
  */
 public class P170 {
-	static int test() {
-		int N = 2;
-		int M = 3;
+	private int N;
+	private int M;
+	
+	P170(int a, int b){
+		N = a;
+		M = b;
+	}
+	
+	public int test() {
 		int sum = N * M;
 		return sum;
 	}

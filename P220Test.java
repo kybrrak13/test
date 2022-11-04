@@ -8,8 +8,8 @@ import org.junit.Test;
 public class P220Test {
 	@Test
 	public void test() {
-		new P220();
-		int result = P220.test();
+		P220 p = new P220(2);
+		int result = p.test();
 		assertThat(result,is(1200));
 	}
 }
