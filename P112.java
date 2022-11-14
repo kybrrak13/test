@@ -6,15 +6,7 @@ package sandbox;
  *
  */
 public class P112 {
-	private int n;
-	private int h;
-	
-	P112(int a, int b){
-		n = a;
-		h = b;
-	}
-	
-	public int test() {
+	static int test(int n, int h) {
 		int sum = n * h;
 		return sum;
 	}

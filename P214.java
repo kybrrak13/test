@@ -6,15 +6,7 @@ package sandbox;
  *
  */
 public class P214 {
-	private int a;
-	private int b;
-	
-	P214(int c, int d){
-		a = c;
-		b = d;
-	}
-	
-	public int test() {
+	static int test(int a, int b) {
         int sum = a - b;
         return sum;
     }

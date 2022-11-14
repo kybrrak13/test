@@ -8,8 +8,7 @@ import org.junit.Test;
 public class P112Test {
 	@Test
 	public void test() {
-		P112 p = new P112(5 , 6);
-		int result =p.test();
+		int result =P112.test(5,6);
 		assertThat(result, is(30));
 	}
 }
