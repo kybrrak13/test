@@ -6,8 +6,8 @@ package sandbox;
  *
  */
 public class P170 {
-	static int test(int N, int M) {
-		int sum = N * M;
+	static int test(int n, int m) {
+		int sum = n * m;
 		return sum;
 	}
 }

@@ -13,14 +13,14 @@ package sandbox;
  *
  */
 public class P117 {
-	static int test(int N, int M, int A, int B, int C) {
+	static int test(int n, int m, int a, int b, int c) {
         int sum = 0;
         int delete = 0;
-        int D = 0;
+        int d = 0;
 
-        for(int i = 1; i<=N; i++){
-            D = D * 10;
-            sum = D * C - A - B * M;
+        for(int i = 1; i<=n; i++){
+            d = d * 10;
+            sum = d * c - a - b * m;
 
             if(sum < 0){
                delete ++;

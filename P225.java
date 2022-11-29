@@ -6,8 +6,8 @@ package sandbox;
  *
  */
 public class P225 {
-	static int test(int N) {
-		int sum = N * 3;
+	static int test(int n) {
+		int sum = n * 3;
 		return sum;
 	}
 
